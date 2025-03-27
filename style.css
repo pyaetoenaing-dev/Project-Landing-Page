@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+ul{
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    
+
+}
+
+a{
+    font-size: small;
+    text-decoration: none;
+    color:lightgray;
+
+    margin: 10px;
+}
+
+.logo{
+    color: #fff;
+}
+
+.header{
+    background-color: #1F2937;
+
+}
+
+.section-one{
+    background-color: #1F2937;
+    padding: 50px 0;
+}
+
+.section-one .content, .header .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    gap: 100px;
+}
+
+
+
+.title{
+    color: #fff;
+}
+
+.text{
+    color:lightgrey;
+}
+
+.btn{
+    color: #fff;
+    background-color: #3882F6;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.nasa{
+    width: 500px;
+    height: 250px;
+}
